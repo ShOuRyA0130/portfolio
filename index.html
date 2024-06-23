@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shourya- Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm Shourya Goyal. I'm a software engineer.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Shourya Goyal, a passionate software engineer with expertise in AI and ML.</p>
+        <p>I've worked on various projects including my self-made portfolio, a simple drawing app with custom shapes, and e-commerce websites. My hobbies include playing cricket, singing, and exploring new technologies.</p>
+        <p>Currently, I'm focused on mastering Data Structures. I believe in continuous learning and improving my skills. Feel free to check out my projects or get in touch!</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>E-commerce Website</h3>
+            <p>Update and Remove: Options to update quantities or remove items from the cart.<br>
+                Proceed to Checkout: Button leading to the checkout page.</p>
+            <h4>Checkout Page</h4>
+            <ol>
+                <li>Contact Form: Simple form for users to send inquiries, including fields for name, email, subject, and message.<br>
+                    Company Information: Displays the company’s contact details, including address, phone number, and email.<br>
+                    User Authentication (Optional)</li>
+
+                <li>Login/Register: Forms for user registration and login.<br>
+                    Profile Management: Basic features for users to manage their profile information and view past orders.<br>
+                    Technical Aspects</li>
+
+                <li>Semantic Elements: Utilizes elements like &lt;header&gt;, &lt;main&gt;, &lt;section&gt;, &lt;article&gt;, and &lt;footer&gt; for clear structure and improved accessibility.<br>
+                    Forms: Implements forms for user input in the contact and checkout sections.<br>
+                    CSS</li>
+
+                <li>Responsive Design: Uses media queries to ensure the site is mobile-friendly.<br>
+                    Flexbox/Grid: Employs Flexbox or Grid layout systems for arranging product listings and other content.<br>
+                    Animations: Adds subtle animations for hover effects on buttons and product images.<br>
+                    JavaScript</li>
+
+                <li>DOM Manipulation: Handles dynamic content updates like adding items to the cart or filtering products.<br>
+                    Event Handling: Manages user interactions, such as form submissions and button clicks.<br>
+                    Local Storage: Stores cart data temporarily to maintain the shopping cart state between page reloads.<br>
+                    Conclusion</li>
+            </ol>
+            <p>This e-commerce site template provides a straightforward yet efficient way to showcase and sell products online. It balances essential functionality with ease of use, making it a solid foundation for developing a more comprehensive e-commerce platform.</p>
+        </div>
+
+        <div class="project">
+            <h3>Custom Drawing App</h3>
+            <p>Description: A versatile GUI-based drawing application built using Python, leveraging the Tkinter library for a seamless and interactive user interface. This app allows users to create digital artwork with ease, providing a variety of tools for drawing, coloring, and editing.</p>
+            <ol>
+                <li>Features:<br>
+                    Canvas Area: A dynamic drawing space where users can create freehand sketches.<br>
+                    Drawing Tools: Includes brushes, pencils, and shape tools (e.g., line, rectangle, ellipse) for diverse artistic effects.<br>
+                    Color Picker: A palette for selecting custom colors to use in drawings.<br>
+                    Tool Options: Adjustable parameters for brush size, opacity, and fill patterns.<br>
+                    Undo/Redo: Functionalities to correct mistakes or revert changes in the drawing process.<br>
+                    Save/Load: Options to save drawings in common image formats (e.g., PNG, JPEG) and load existing files for further editing.<br>
+                    User-Friendly UI: Intuitive layout with easy-to-navigate toolbars and menus.<br>
+                    Technical Aspects:</li>
+
+                <li>Tkinter Library: Provides the core GUI elements and canvas for drawing.<br>
+                    Python: Used for developing application logic, event handling, and integration of drawing tools.<br>
+                    File I/O: Enables saving and loading of drawing files, ensuring persistence of user creations.<br>
+                    Use Case: Ideal for both casual users and budding artists to create and edit digital drawings quickly and efficiently.</li>
+            </ol>
+        </div>
+        <!-- Add more projects as needed -->
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Shourya Goyal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
